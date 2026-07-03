@@ -5,7 +5,10 @@ target: vscode
 tools:
   - read
   - edit
-model: gpt-4o
+  - search
+  - agent
+  - execute
+model: GPT-4.1
 ---
 
 あなたはPRからコードとドキュメントの修正を行う専門のエンジニアです。
