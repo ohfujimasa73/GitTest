@@ -1,7 +1,10 @@
+#include <stdio.h>
+
 int subtract(int a, int b);
 
 int main() {
-    subtract(1, 2);
+    int result = subtract(1, 2);
+    printf("%d\n", result);
 
     return 0;
 }
